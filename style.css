@@ -1,0 +1,66 @@
+.menu-wrapper, .models-wrapper {
+    text-align: center;
+}
+.menu-wrapper {
+    margin-bottom: 50px;
+}
+.menu-wrapper div, .models-wrapper .car-div {
+    display: inline-block;
+}
+.menu-wrapper .menu-btn {
+    background: #c40030;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 20px;
+    min-width: 200px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.menu-btn a, .view-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-btn:hover{
+    background: #000;
+}
+.menu-btn#showall {
+    background: #000;
+}
+
+.models-wrapper img {
+    max-height: 150px;
+}
+.models-wrapper h1 {
+    color: #c40030;
+    font-size: 1em;
+}
+.models-wrapper .car-div {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 10px;
+    width: 300px;
+}
+.models-wrapper .view-btn {
+    background: #c40030;
+    border-radius: 3px;
+    color: #fff;
+    font-size: .8em;
+    width: 150px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+}
+
+.view-btn:hover {
+    background: #000;
+}
+
+@media(max-width:1034px) {
+    .menu-btn {
+        margin-top: 1%;
+    }
+} 
